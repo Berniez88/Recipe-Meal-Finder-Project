@@ -178,6 +178,7 @@ body {
 .showRecipe {
   display: block;
 }
+
 .meal-details-content {
   margin: 2rem;
 }
@@ -261,6 +262,16 @@ body {
 .recipe-link a:hover {
   opacity: 0.8;
 }
+
+/*  */
+.notFound {
+  grid-template-columns: 1fr !important;
+  color: var(--tenne-tawny);
+  font-size: 1.8rem;
+  font-weight: 600;
+  width: 100%;
+}
+
 /* Media Queries */
 @media screen and (min-width: 600px) {
   .meal-search-box {
@@ -278,6 +289,9 @@ body {
   }
   .meal-item {
     margin: 0;
+  }
+  .meal-details {
+    width: 700px;
   }
 }
 
